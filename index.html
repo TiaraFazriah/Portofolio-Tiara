@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiara - portof</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-text">Loading...</div>
+        </div>
+    </div>
+
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <div class="particles" id="particles"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo" data-aos="fade-right">
+                <h2>TiaraFazriah</h2>
+            </div>
+            <input type="checkbox" id="nav-check" class="nav-check">
+            <label for="nav-check" class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-menu">
+                <li data-aos="fade-down" data-aos-delay="100"><a href="#home" class="nav-link">Home</a></li>
+                <li data-aos="fade-down" data-aos-delay="200"><a href="#about" class="nav-link">About</a></li>
+                <li data-aos="fade-down" data-aos-delay="300"><a href="#skills" class="nav-link">Skills</a></li>
+                <li data-aos="fade-down" data-aos-delay="400"><a href="#projects" class="nav-link">Project</a></li>
+                <li data-aos="fade-down" data-aos-delay="500"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="home">
+        <div class="home-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container">
+            <div class="home-content">
+                <div class="home-text">
+                    <div class="greeting" data-aos="fade-up">
+                        <span class="greeting-text">Halo, Saya</span>
+                    </div>
+                    <h1 class="home-title" data-aos="fade-up" data-aos-delay="100">
+                        <span class="title-text">Tiara Fazriah Hajar Sero</span>
+                        <span class="title-cursor">|</span>
+                    </h1>
+                    <div class="home-subtitle" data-aos="fade-up" data-aos-delay="200">
+                        <span class="subtitle-text">Siswi PPLG</span>
+                        <span class="subtitle-cursor">_</span>
+                    </div>
+                    <p class="home-description" data-aos="fade-up" data-aos-delay="300">
+                        Menciptakan pengalaman digital yang luar biasa dengan kode yang elegan dan desain yang inovatif.
+                    </p>
+                    <div class="home-buttons" data-aos="fade-up" data-aos-delay="400">
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Hubungi Saya</span>
+                            <div class="btn-ripple"></div>
+                        </a>
+                        <a href="CV TIARA FAZRIAH.pdf" download class="btn btn-secondary">
+                            <i class="fas fa-download"></i>
+                            <span>Download CV</span>
+                        </a>
+                    </div>
+                    <div class="social-links" data-aos="fade-up" data-aos-delay="500">
+                        <a href="https://www.instagram.com/tiarafazriah___?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                            <div class="social-tooltip">Instagram</div>
+                        </a>
+                        <a href="https://github.com/TiaraFazriah" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <div class="social-tooltip">GitHub</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-visual" data-aos="fade-left" data-aos-delay="300">
+                    <div class="profile-3d">
+                        <div class="profile-card">
+                            <div class="profile-image-wrapper">
+                                <div class="profile-image-frame">
+                                    <img src="fotoutama.jpg" alt="Profile">
+                                    <div class="profile-glow"></div>
+                                </div>
+                            </div>
+                            <div class="profile-info">
+                                <div class="profile-name">Tiara Fazriah</div>
+                                <div class="profile-role">Siswi</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <div class="scroll-text">Scroll untuk menjelajah</div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-bg">
+            <div class="gradient-orb orb-4"></div>
+        </div>
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Tentang Saya</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Mengenal lebih dekat tentang saya</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-frame">
+                            <img src="foto1.png" alt="About">
+                            <div class="about-image-overlay">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3 class="about-heading">Siapa saya?</h3>
+                    <p class="about-description">
+                        Saya adalah seorang siswi di Madrasah Aliyah Kejuruan Negeri Ende, 
+                        jurusan Pengembangan Perangkat Lunak dan Gim (PPLG). Saya memiliki minat dalam pengembangan web,
+                        desain UI/UX, serta pemrograman menggunakan HTML, CSS, JavaScript, PHP, dan MySQL. 
+                        Portofolio ini saya susun sebagai wadah untuk menampilkan hasil karya, proyek sekolah, 
+                        serta eksplorasi kreatif saya di bidang teknologi dan desain.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="highlight-text">
+                                <h4>Award Winning</h4>
+                                <p>2nd place in UI/UX design in inter-class class meeting</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="highlight-text">
+                                <h4>Fast Delivery</h4>
+                                <p>Quick turnaround without compromising quality</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="skills-bg">
+            <div class="gradient-orb orb-5"></div>
+        </div>
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Keahlian</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Bidang Keahlian</p>
+            </div>
+            <div class="skills-container">
+                <div class="skills-categories">
+                    <button class="skill-category active" data-category="all">Semua</button>
+                    <button class="skill-category" data-category="frontend">Frontend</button>
+                    <button class="skill-category" data-category="backend">Backend</button>
+                    <button class="skill-category" data-category="tools">Tools</button>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card" data-category="frontend" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="skill-icon-wrapper">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-level">70%</div>
+                        </div>
+                        <h3 class="skill-name">HTML</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-category="frontend" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="skill-icon-wrapper">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="skill-level">65%</div>
+                        </div>
+                        <h3 class="skill-name">CSS</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-category="backend" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="skill-icon-wrapper">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="skill-level">60%</div>
+                        </div>
+                        <h3 class="skill-name">JAVA</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-category="backend" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="skill-icon-wrapper">
+                            <div class="skill-icon">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <div class="skill-level">65%</div>
+                        </div>
+                        <h3 class="skill-name">PHP</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-category="frontend" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="skill-icon-wrapper">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="skill-level">60%</div>
+                        </div>
+                        <h3 class="skill-name">JAVASCRIPT</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-category="backend" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="skill-icon-wrapper">
+                            <div class="skill-icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <div class="skill-level">75%</div>
+                        </div>
+                        <h3 class="skill-name">MYSQL</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-category="tools" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="skill-icon-wrapper">
+                            <div class="skill-icon">
+                                <i class="fa-brands fa-figma"></i>
+                            </div>
+                            <div class="skill-level">90%</div>
+                        </div>
+                        <h3 class="skill-name">FIGMA</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-category="tools" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="skill-icon-wrapper">
+                            <div class="skill-icon">
+                                <img src="balsamiq.png" alt="Balsamiq" width="120">
+                            </div>
+                            <div class="skill-level">90%</div>
+                        </div>
+                        <h3 class="skill-name">BALSAMIQ</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-category="backend" data-aos="zoom-in" data-aos-delay="600">
+                        <div class="skill-icon-wrapper">
+                            <div class="skill-icon">
+                                <i class="fa-brands fa-wordpress"></i>
+                            </div>
+                            <div class="skill-level">85%</div>
+                        </div>
+                        <h3 class="skill-name">WORDPRESS</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="projects-bg">
+            <div class="gradient-orb orb-6"></div>
+        </div>
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Proyek Unggulan</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Karya terbaik saya</p>
+            </div>
+            <div class="projects-showcase">
+                <div class="project-main" data-aos="fade-up">
+                    <div class="project-image-main">
+                        <img src="pangkalan.png" alt="Main Project">
+                        <div class="project-overlay-main">
+                            <div class="project-number">01</div>
+                            <div class="project-title-main">Pangkalan Minyak Tanah Okita</div>
+                            <div class="project-tech-main">
+                                <span>PHP</span>
+                                <span>CSS</span>
+                                <span>MYSQL</span>
+                                <span>DESIGN FIGMA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-grid-secondary">
+                    <div class="project-card-secondary" data-aos="fade-right" data-aos-delay="100">
+                        <div class="project-image-secondary">
+                            <img src="okitacatering.png" alt="Project 2">
+                            <div class="project-overlay-secondary">
+                                <div class="project-number">02</div>
+                                <div class="project-title-secondary">Okita Catering</div>
+                                <div class="project-tech-main">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-secondary" data-aos="fade-left" data-aos-delay="200">
+                        <div class="project-image-secondary">
+                            <img src="kphtmlcssjs.png" alt="Project 3">
+                            <div class="project-overlay-secondary">
+                                <div class="project-number">03</div>
+                                <div class="project-title-secondary">Kopi Flores</div>
+                                <div class="project-tech-main">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JAVASCRIPT</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-grid-secondary hidden-projects" style="display:none;">
+                    <div class="project-card-secondary">
+                        <div class="project-image-secondary">
+                            <img src="tokobuku.png" alt="Project 4">
+                            <div class="project-overlay-secondary">
+                                <div class="project-number">04</div>
+                                <div class="project-title-secondary">Toko Buku</div>
+                                <div class="project-tech-main">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-secondary">
+                        <div class="project-image-secondary">
+                            <img src="todolisthtmlcssjs.png" alt="Project 5">
+                            <div class="project-overlay-secondary">
+                                <div class="project-number">05</div>
+                                <div class="project-title-secondary">To do list</div>
+                                <div class="project-tech-main">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JAVASCRIPT</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-secondary">
+                        <div class="project-image-secondary">
+                            <img src="halloinightmlcss.png" alt="Project 5">
+                            <div class="project-overlay-secondary">
+                                <div class="project-number">06</div>
+                                <div class="project-title-secondary">Halaman Login Instagram</div>
+                                <div class="project-tech-main">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-secondary">
+                        <div class="project-image-secondary">
+                            <img src="osimfigma.png" alt="Project 5">
+                            <div class="project-overlay-secondary">
+                                <div class="project-number">07</div>
+                                <div class="project-title-secondary">Desain Web OSIM</div>
+                                <div class="project-tech-main">
+                                    <span>FIGMA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-secondary">
+                        <div class="project-image-secondary">
+                            <img src="kpfigmahtmlcssjs.png" alt="Project 5">
+                            <div class="project-overlay-secondary">
+                                <div class="project-number">08</div>
+                                <div class="project-title-secondary">Desain Web Kopi Flores</div>
+                                <div class="project-tech-main">
+                                    <span>FIGMA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-secondary">
+                        <div class="project-image-secondary">
+                            <img src="hpfigma.png" alt="Project 5">
+                            <div class="project-overlay-secondary">
+                                <div class="project-number">09</div>
+                                <div class="project-title-secondary">Desain Web Hitung Pengeluaran</div>
+                                <div class="project-tech-main">
+                                    <span>FIGMA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-secondary">
+                        <div class="project-image-secondary">
+                            <img src="tokobunga.png" alt="Project 5">
+                            <div class="project-overlay-secondary">
+                                <div class="project-number">10</div>
+                                <div class="project-title-secondary">Toko Bunga</div>
+                                <div class="project-tech-main">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-secondary">
+                        <div class="project-image-secondary">
+                            <img src="ocfigma.png" alt="Project 5">
+                            <div class="project-overlay-secondary">
+                                <div class="project-number">11</div>
+                                <div class="project-title-secondary">Desain Web Okita Catering</div>
+                                <div class="project-tech-main">
+                                    <span>FIGMA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-secondary">
+                        <div class="project-image-secondary">
+                            <img src="portofolio.png" alt="Project 5">
+                            <div class="project-overlay-secondary">
+                                <div class="project-number">12</div>
+                                <div class="project-title-secondary">Portofolio Pertama</div>
+                                <div class="project-tech-main">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-secondary">
+                        <div class="project-image-secondary">
+                            <img src="halporotfhtmlcss.png" alt="Project 5">
+                            <div class="project-overlay-secondary">
+                                <div class="project-number">13</div>
+                                <div class="project-title-secondary">Latihan membuat web portofolio pertama</div>
+                                <div class="project-tech-main">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-secondary">
+                        <div class="project-image-secondary">
+                            <img src="warung.png" alt="Project 5">
+                            <div class="project-overlay-secondary">
+                                <div class="project-number">14</div>
+                                <div class="project-title-secondary">Latihan membuat web catering</div>
+                                <div class="project-tech-main">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="project-card-secondary">
+                        <div class="project-image-secondary">
+                            <img src="UI.PNG" alt="Project 5">
+                            <div class="project-overlay-secondary">
+                                <div class="project-number">15</div>
+                                <div class="project-title-secondary">Latihan membuat tampilan UI</div>
+                                <div class="project-tech-main">
+                                    <span>HTML</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-secondary">
+                        <div class="project-image-secondary">
+                            <img src="KALKU.png" alt="Project 5">
+                            <div class="project-overlay-secondary">
+                                <div class="project-number">16</div>
+                                <div class="project-title-secondary">Kalkulator UI</div>
+                                <div class="project-tech-main">
+                                    <span>JAVA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-secondary">
+                        <div class="project-image-secondary">
+                            <img src="Web Pribadi.png" alt="Project 5">
+                            <div class="project-overlay-secondary">
+                                <div class="project-number">17</div>
+                                <div class="project-title-secondary">Latihan membuat web portofolio kedua</div>
+                                <div class="project-tech-main">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-secondary">
+                        <div class="project-image-secondary">
+                            <img src="PORTOFWP.png" alt="Project 5">
+                            <div class="project-overlay-secondary">
+                                <div class="project-number">18</div>
+                                <div class="project-title-secondary">Portofolio Wordpress</div>
+                                <div class="project-tech-main">
+                                    <span>WordPress</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card-secondary">
+                        <div class="project-image-secondary">
+                            <img src="undangan.png" alt="Project 5">
+                            <div class="project-overlay-secondary">
+                                <div class="project-number">19</div>
+                                <div class="project-title-secondary">Undangan Nikah Digital</div>
+                                <div class="project-tech-main">
+                                    <span>WordPress</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects-more" data-aos="fade-up">
+                    <a href="#" class="btn btn-outline" id="show-projects">Lihat Semua Proyek</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <script>
+            document.getElementById("show-projects").addEventListener("click", function(e) {
+                e.preventDefault();
+                document.querySelector(".hidden-projects").style.display = "flex";
+                this.parentElement.style.display = "none";
+            });
+            </script>
+
+    <section id="contact" class="contact">
+        <div class="contact-bg">
+            <div class="gradient-orb orb-7"></div>
+            <div class="gradient-orb orb-8"></div>
+        </div>
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Mari Terhubung</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Saya siap untuk proyek Anda berikutnya</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-cards">
+                    <div class="contact-card" data-aos="flip-left" data-aos-delay="100">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>tiarafazriah08@gmail.com</p>
+                        <a href="mailto:tiarafazriah08@gmail.com" class="contact-link">
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="contact-card" data-aos="flip-left" data-aos-delay="200">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Telepon</h3>
+                        <p>+62 812 3760 3050</p>
+                        <a href="tel:+6281237603050" class="contact-link">
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="contact-card" data-aos="flip-left" data-aos-delay="300">
+                        <div class="contact-card-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3>WhatsApp</h3>
+                        <p>+62 812 3760 3050</p>
+                        <a href="https://wa.me/6281237603050" class="contact-link">
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="contact-card" data-aos="flip-left" data-aos-delay="400">
+                        <div class="contact-card-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>Github</h3>
+                        <p>TiaraFazriah</p>
+                        <a href="https://github.com/TiaraFazriah" class="contact-link">
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-cta" data-aos="zoom-in">
+                    <h3>Siap untuk memulai proyek Anda?</h3>
+                    <p>Saya selalu terbuka untuk diskusi tentang ide-ide baru dan peluang kolaborasi.</p>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tiarafazriah08@gmail.com&su=Tanya%20Proyek%20Website&body=Halo%20Tiara," 
+                        target="_blank" 
+                        class="btn btn-primary btn-large">
+                        <i class="fas fa-paper-plane"></i>
+                        Kirim Email Sekarang
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3>Tiara Fazriah</h3>
+                <p>Siswi</p>
+            </div>
+            <div class="footer-center">
+                <div class="footer-social">
+                    <a href="https://github.com/TiaraFazriah"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/tiarafazriah___?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
+                </div>
+                <p>&copy; 2026 Tiara Fazriah I hak cipta dilindungi.</p>
+            </div>
+            <div class="footer-right">
+                <a href="#" class="footer-link">Privacy Policy</a>
+                <a href="#" class="footer-link">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
